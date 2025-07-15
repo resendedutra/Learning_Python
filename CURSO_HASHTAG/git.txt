@@ -1,0 +1,14 @@
+Enviar um projeto/pasta para o github
+1) Criar o repositório no github
+2) Digitar no terminal (nas pasta do projeto) para iniciar o repositório local: git init
+3) Digitar no terminal: git status
+4) Digitar no terminal (para adicionar todos os arquivos do projeto): git add .
+5) Digitar no terminal (para comentar as mudanças): git commit -m "colocar o comentário desejado"
+6) Digitar no terminal: git branch -M main
+7) Digitar no terminal (para conectar com o repositório): git remote add origin <link do repositório criado>
+8) Digitar no terminal: git push -u origin main
+
+Atualizar um projeto/pasta no github
+1) Prepara alteções feitas p/ serem incluídas no próximo commit: git add .
+2) Salva as alterações feitas no PC: git commit -m "<mensagem sobre a atualização do arquivo/projeto>"
+3) Salva as alterações feitas no git: git push origin main
