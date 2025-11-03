@@ -6,7 +6,7 @@ janela = tk.Tk()                            # Cria a janela principal da aplica�
 janela.title("Calculadora de IMC")          # Define o título da janela que aparece na barra de título do sistema operacional.
 janela.geometry("295x300")                  # Define o tamanho inicial da janela em pixels: largura=295 e altura=300.
 janela.configure(bg="white")                # Define a cor de fundo da janela principal como branco.
-#janela.resizable(False, False)             # (Comentado) Impedir redimensionamento horizontal e vertical; atualmente não ativo.
+janela.resizable(False, False)              # (Comentado) Impedir redimensionamento horizontal e vertical; atualmente não ativo.
 
 # Cores
 cor0 = "#ffffff"                            # Variável com a cor branca (usada como fundo em vários widgets).
