@@ -7,23 +7,23 @@ janela.geometry("400x300")
 janela.resizable(width=False, height=False)
 janela.config(bg="#ffffff")
 
-label_nome = Label(janela, text="Nome: ", width=15, font="Arial 10 bold", bg="#ffffff", anchor="w")
-label_nome.grid(row=0, column=0)
+label_nome = Label(janela, text="Nome: ", width=15, font="Arial 10 bold", bg="#AEAEAE", anchor="w")
+label_nome.grid(row=0, column=0, padx=2, pady=2)
 
-nome = Label(janela, text="Carlos Dutra", width=15, font="Arial 10 bold", bg="#ffffff", anchor="e")
-nome.grid(row=0, column=1)
+nome = Label(janela, text="Carlos Dutra", width=15, font="Arial 10 bold", bg="#AEAEAE", anchor="e")
+nome.grid(row=0, column=1, padx=2, pady=2)
 
-label_idade = Label(janela, text="Idade: ", width=15, font="Arial 10 bold", bg="#ffffff", anchor="w")
-label_idade.grid(row=1, column=0)
+label_idade = Label(janela, text="Idade: ", width=15, font="Arial 10 bold", bg="#AEAEAE", anchor="w")
+label_idade.grid(row=1, column=0, padx=2, pady=2)
 
-idade = Label(janela, text="51", width=15, font="Arial 10 bold", bg="#ffffff", anchor="e")
-idade.grid(row=1, column=1)
+idade = Label(janela, text="51", width=15, font="Arial 10 bold", bg="#AEAEAE", anchor="e")
+idade.grid(row=1, column=1, padx=2, pady=2)
 
-label_pais = Label(janela, text="País: ", width=15, font="Arial 10 bold", bg="#ffffff", anchor="w")
-label_pais.grid(row=2, column=0)
+label_pais = Label(janela, text="País: ", width=15, font="Arial 10 bold", bg="#AEAEAE", anchor="w")
+label_pais.grid(row=2, column=0, padx=2, pady=2)
 
-pais = Label(janela, text="Brasil", width=15, font="Arial 10 bold", bg="#ffffff", anchor="e")
-pais.grid(row=2, column=1)
+pais = Label(janela, text="Brasil", width=15, font="Arial 10 bold", bg="#AEAEAE", anchor="e")
+pais.grid(row=2, column=1, padx=2, pady=2)
 
 
 
