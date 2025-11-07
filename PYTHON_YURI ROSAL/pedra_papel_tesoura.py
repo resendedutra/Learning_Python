@@ -12,6 +12,9 @@ while True:
   if escolha_usuario == "q":
     break
 
+  if escolha_usuario not in opcoes:
+    continue
+
   escolha_computador = random.randint(0, 2)
   # 0 para R, 1 para P e 2 para T
   
